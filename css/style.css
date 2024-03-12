@@ -1,0 +1,57 @@
+#head-sec {
+    background-image: url('../images/banner.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+#logo {
+    width: 100px;
+}
+
+#name-title {
+    margin-top: 7rem;
+    transition: all ease 1.1s;
+}
+
+#name-title:hover {
+    scale: 1.1;
+}
+
+.bi-pc-display-horizontal,
+.bi-magic,
+.bi-file-bar-graph,
+.bi-airplane-fill {
+    line-height: 5;
+    color: white;
+    font-size: 2rem;
+}
+
+#card-footer {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+#working-block {
+    background-color: #F6F6F6;
+    height: 23rem;
+}
+
+.card {
+    transition: all ease 1.1s;
+}
+
+.card:hover {
+    scale: 1.1;
+}
+
+#left-block,
+#right-block {
+    border: 1px solid;
+    width: 25rem;
+    height: 19rem;
+}
+
+#edu {
+    background-image: url('../images/banner-2.jpg');
+}

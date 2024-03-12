@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Abhay</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./javascript/index.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid" id="head-sec">
+        <div class="container-fluid d-flex justify-content-between">
+            <div class="container mt-2">
+                <img src="images/AP-logo.png" alt="" id="logo">
+            </div>
+            <button data-bs-toggle="offcanvas" data-bs-target="#navbar"
+                class="btn btn-light bi bi-justify m-4"></button>
+            <nav class="offcanvas offcanvas-start" id="navbar" tabindex="-1">
+                <div class="offcanvas-header bg-primary">
+                    <h1 class="fw-bold text-light">ABHAY PATIL</h1>
+                    <button data-bs-dismiss="offcanvas" class="btn btn-close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="list-unstyled">
+                        <li class="form-control mt-3">Home</li>
+                        <li class="form-control mt-3">About</li>
+                        <li class="form-control mt-3">Project</li>
+                        <li class="form-control mt-3">Contact</li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container-lg d-flex justify-content-center align-items-center border border-2  w-50 rounded rounded-3"
+            id="name-title">
+            <main class="text-light p-5">
+                <hr style="border: 2px solid white;">
+                <h1>ABHAY ASHOK PATIL</h1>
+                <hr style="border: 2px solid white;">
+                <div class="align-content-center">FRONTEND DEVELOPER</div>
+            </main>
+        </div>
+    </div>
+    <section>
+        <div class="container-fluid">
+            <div class="row m-5">
+                <div class="col-5">
+                    <img src="images/abhay-pic.jpg" alt="" class="w-75">
+                </div>
+                <div class="col-7">
+                    <h5 class="text-danger mt-5">Hi I'm Abhay Patil, A Frontend focused Web Developer </h5>
+                    <p> Crafting bespoke web pages to exact customer specifications using HTML, CSS, and Bootstrap.
+                        Iteratively refining and perfecting designs based on client feedback, ensuring alignment with
+                        project requirements.</p>
+                    <p>Coordinating closely with clients to capture their vision and deliver
+                        exceptional results.</p>
+                    <button class="btn btn-danger mt-5" onclick="alertMsg()">Hire Me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="working-block">
+        <div class="container-fluid">
+            <div>
+                <div class="h1 text-center fw-bold text-danger">My Working Process</div>
+                <h6 class="text-dark mt-3 mb-5 text-center">Hi I'm Abhay A Frontend focused Web Developer</h6>
+            </div>
+            <main class="d-flex justify-content-around">
+                <div class="card text-center bg-danger" style="width: 300px; height: 200px;">
+                    <div class="card-body"><span class="bi bi-pc-display-horizontal"></span></div>
+                    <div class="card-footer" id="card-footer"><span>DESIGN</span></div>
+                </div>
+                <div class="card text-center bg-warning" style="width: 300px; height: 200px;">
+                    <div class="card-body"><span class="bi bi-magic"></span></div>
+                    <div class="card-footer" id="card-footer"><span>DEVELOPMENT</span></div>
+                </div>
+                <div class="card text-center bg-primary" style="width: 300px; height: 200px;">
+                    <div class="card-body"><span class="bi bi-file-bar-graph"></span></div>
+                    <div class="card-footer" id="card-footer"><span>TESTING</span></div>
+                </div>
+                <div class="card text-center bg-success" style="width: 300px; height: 200px;">
+                    <div class="card-body"><span class="bi bi-airplane-fill"></span></div>
+                    <div class="card-footer" id="card-footer"><span>LAUNCH</span></div>
+                </div>
+            </main>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid" id="edu">
+            <div class="row m-5 d-flex justify-content-around" id="exp">
+                <div class="col-6 m-5 bg-black text-light" id="left-block">
+                    <h1>WORK EXPERIENCE</h1>
+                    <h5 class="fw-bold mt-3 text-warning">Mad Max Design</h5>
+                    <p>Oct 2013- June 2014</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione corporis qui doloribus cum non?
+                        Praesentium at accusantium sunt expedita earum, repellendus animi aliquam amet repellat
+                        aspernatur voluptates consequuntur suscipit inventore?</p>
+
+                </div>
+                <div class="col-6 m-5 bg-black text-light" id="right-block">
+                    <h1>EDUCATION</h1>
+                    <h5 class="fw-bold mt-3 text-warning">Madison University</h5>
+                    <p>Oct 2013- June 2014</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione corporis qui doloribus cum non?
+                        Praesentium at accusantium sunt expedita earum, repellendus animi aliquam amet repellat
+                        aspernatur voluptates consequuntur suscipit inventore?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
