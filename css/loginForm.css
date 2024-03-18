@@ -1,0 +1,44 @@
+.card-header img {
+    width: 120px;
+}
+
+.modal-header img {
+    width: 120px;
+}
+
+.card-box {
+    margin-top: 150px;
+}
+
+.img-profile {
+    margin-left: 170px;
+}
+
+@media only screen and (max-width:750px) {
+    .img-profile {
+        margin-left: 100px;
+    }
+}
+
+
+@media only screen and (max-width:750px) {
+    .card {
+        width: 350px;
+    }
+}
+
+.errorMsg1 {
+    margin-top: 5px;
+    color: red;
+    display: none;
+}
+
+.errorMsg2 {
+    margin-top: 5px;
+    color: red;
+    display: none;
+}
+
+#root {
+    display: none;
+}

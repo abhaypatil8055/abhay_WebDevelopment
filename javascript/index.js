@@ -24,3 +24,4 @@ function isValidEmail(email) {
 var alertMsg = () => {
     alert("Hey Mate Fill the Below Form First, Thank You !!");
 }
+
